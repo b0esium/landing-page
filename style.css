@@ -2,11 +2,14 @@
     font-family: "Roboto", sans-serif;
 }
 
-.hero {
+/* header */
+
+.header-container {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding-bottom: 20px;
 }
 
 .header {
@@ -26,11 +29,44 @@
 .header-links {
     display: flex;
     justify-content: flex-end;
+}
+
+.header-links a {
+    padding-left: 10px;
     color: #E5E7EB;
     font-size: 18px;
+    text-decoration: none;
+}
+
+/* hero */
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-bottom: 20px;
+}
+
+.hero {
+    height: 100px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-intro {
+    display: flex;
+    width: 50%;
 }
 
 .hero-intro h1 {
     font-size: 48px;
     font-weight: extra-bold;
+}
+
+.hero-image {
+    display: flex;
+    height: 100%;
 }
